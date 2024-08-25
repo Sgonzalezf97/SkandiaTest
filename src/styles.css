@@ -2,3 +2,27 @@
 
 html, body { height: 100%; }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+
+.p-color{
+  color: #00C83C;
+}
+
+.spacer {
+  flex: 1 1 auto;
+}
+.spacer2 {
+  flex: 0.1 1 auto;
+}
+
+.skandia-title{
+  text-align: left;
+  font: normal normal medium 18px/23px Montserrat;
+  letter-spacing: 0px;
+  color: #3F3F3F;
+  opacity: 1;
+  margin: 1rem;
+}
+
+.separator{
+  font-size: larger;
+}
