@@ -26,3 +26,20 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 .separator{
   font-size: larger;
 }
+
+.center-div{
+  display: flex;
+  align-items: center;
+  margin: auto;
+  justify-items: center;
+}
+
+.footer{
+  margin: 0 6%;
+}
+
+.no-styles{
+  /* text-decoration: none; */
+  color: inherit;
+
+}
