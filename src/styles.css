@@ -1,20 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 
-html, body { height: 100%; }
-body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html,
+body {
+  height: 100%;
+}
 
-.p-color{
+body {
+  margin: 0;
+  font-family: normal, "Helvetica Neue", sans-serif;
+}
+
+.p-color {
   color: #00C83C;
+}
+
+.s-color {
+  color: #FE9200;
 }
 
 .spacer {
   flex: 1 1 auto;
 }
+
 .spacer2 {
   flex: 0.1 1 auto;
 }
 
-.skandia-title{
+.skandia-title {
   text-align: left;
   font: normal normal medium 18px/23px Montserrat;
   letter-spacing: 0px;
@@ -23,23 +35,75 @@ body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
   margin: 1rem;
 }
 
-.separator{
+.separator {
   font-size: larger;
 }
 
-.center-div{
+.center-div {
   display: flex;
   align-items: center;
   margin: auto;
   justify-items: center;
 }
 
-.footer{
+.center-content {
+  display: flex;
+  align-content: center;
+  margin: auto;
+  justify-content: center;
+}
+
+.footer {
   margin: 0 6%;
 }
 
-.no-styles{
+.no-styles {
   /* text-decoration: none; */
   color: inherit;
 
+}
+
+.bg-skandia {
+  background-image: url("assets/iStock-480003814.png");
+  background: url("assets/iStock-480003814.png");
+  background-repeat: round;
+  background-size: auto;
+}
+
+.bg-color-date {
+  background: #A5D7E1 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.bg-color-current {
+  background: #95DBB7 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.bg-color-goal {
+  background: #FECD72 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.bg-card-goal {
+  background-image: url(assets/Mask\ Group\ 19.png);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-position-y: bottom;
+}
+
+.verdana-font {
+  font-family: Verdana;
+}
+
+.card-footer-grey {
+  background-color: #00000029;
+}
+
+.icon-position {
+  position: relative;
+  top: 10px;
 }
